@@ -1,3 +1,20 @@
+#**Salud y Crossfit SanFer**
+> Nació de la idea, que particularmente me gusta el Crossfit, y la buena alimentación y me encanta poder dar tips, recetas, decirle a las personas lo bueno y reconfortante que se siente ir viendo los cambios en el cuerpo y mente que se generan, cuando uno decide este tipo de rutinas en la vida cotidiana.
+
+##**Usuarios y Relación con el producto**
+> Este producto funciona para usuarios de 10 años en adelante, quienes desean cambiar su estilo de vida, y apuestan por un entrenamiento Crossfit, ya que es la nueva tendencia que trabaja el cuerpo en general, combinando cardio, pesas y sana alimentación.
+> En Salud y CrossFit SanFer, le entregamos una opción personalizada para aquellas personas que se les complica por las diversas rutinas que se les genera durante el día, como colegios, empleos, etc. Y pueden elegir un horario de entrenamiento, según las pautas que se les indiquen y según los reuqerimientos de cada usuario.
+> Al decidir quedarse con nuestra metodología, es cuando ingresan en la página, se le solicitan ciertos datos los cuales enviarán de manera Encriptada, y nos llega al correo al dar click al botón enviar, y recibirán su información de igual manera encriptada, para que alguna otra persona no pueda acceder a sus rutinas personales.
+> Dicho esto le colocampos un ejemplo de encriptación al usuario en nuestra página Web, para que comprenda como debe realizarle, al recibir nuestro correo con la rutina de la opción que seleccionó
+
+###Código del Cifrado César
+> Ya enfocandome en la tarea encomendada del del cifrado y descifrado César, fue una tarea, de mucha concentración, ya que primero había que entender como se debía usar la fórmula, ya que era la pista principal para desarrollar el resto del proyecto.
+
+Incluyo dos imagenes, una con la maqueta final con la que decidí quedarme, ya que elaboré muchas, hasta llegar a entender lo que se debía definir con lo solicitado. Y la otra imágen es el proyecto que tenía al principio ya avanzado, hasta que recibí el feedback, el cuál me sirvió de muchísima ayuda.
+
+
+
+
 # Cifrado César
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
@@ -51,18 +68,18 @@ Herramientas:
 Esta sección está  para ayudarte a llevar un control de lo que vas completando.
 
 ### Parte Obligatoria
-* [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
-* [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
+* [X] `README.md` incluye info sobre proceso y decisiones de diseño.
+* [X] `README.md` explica claramente quiénes son los usuarios y su relación con
   el producto.
-* [ ] `README.md` explica claramente cómo el producto soluciona los
+* [X] `README.md` explica claramente cómo el producto soluciona los
   problemas/necesidades de los usuarios.
-* [ ] Usa VanillaJS.
+* [X] Usa VanillaJS.
 * [X] No utiliza `this`.
 * [X] Implementa `cipher.encode`.
 * [X] Implementa `cipher.decode`.
-* [ ] Pasa linter con configuración provista.
-* [ ] Pasa pruebas unitarias.
-* [ ] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
+* [X] Pasa linter con configuración provista.
+* [X] Pasa pruebas unitarias.
+* [X] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
   mínimo del 50% de _branches_.
 * [X] Interfaz permite elegir el `offset` o _desplazamiento_ a usar en el
   cifrado/descifrado.
