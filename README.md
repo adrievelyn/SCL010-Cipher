@@ -1,13 +1,13 @@
-#**Salud y Crossfit SanFer**
+# **Salud y Crossfit SanFer**
 > Nació de la idea, que particularmente me gusta el Crossfit, y la buena alimentación y me encanta poder dar tips, recetas, decirle a las personas lo bueno y reconfortante que se siente ir viendo los cambios en el cuerpo y mente que se generan, cuando uno decide este tipo de rutinas en la vida cotidiana.
 
-##**Usuarios y Relación con el producto**
+## **Usuarios y Relación con el producto**
 > Este producto funciona para usuarios de 10 años en adelante, quienes desean cambiar su estilo de vida, y apuestan por un entrenamiento Crossfit, ya que es la nueva tendencia que trabaja el cuerpo en general, combinando cardio, pesas y sana alimentación.
 > En Salud y CrossFit SanFer, le entregamos una opción personalizada para aquellas personas que se les complica por las diversas rutinas que se les genera durante el día, como colegios, empleos, etc. Y pueden elegir un horario de entrenamiento, según las pautas que se les indiquen y según los reuqerimientos de cada usuario.
 > Al decidir quedarse con nuestra metodología, es cuando ingresan en la página, se le solicitan ciertos datos los cuales enviarán de manera Encriptada, y nos llega al correo al dar click al botón enviar, y recibirán su información de igual manera encriptada, para que alguna otra persona no pueda acceder a sus rutinas personales.
 > Dicho esto le colocampos un ejemplo de encriptación al usuario en nuestra página Web, para que comprenda como debe realizarle, al recibir nuestro correo con la rutina de la opción que seleccionó
 
-###Código del Cifrado César
+### Código del Cifrado César
 > Ya enfocandome en la tarea encomendada del del cifrado y descifrado César, fue una tarea, de mucha concentración, ya que primero había que entender como se debía usar la fórmula, ya que era la pista principal para desarrollar el resto del proyecto.
 
 Incluyo dos imagenes, una con la maqueta final con la que decidí quedarme, ya que elaboré muchas, hasta llegar a entender lo que se debía definir con lo solicitado. Y la otra imágen es el proyecto que tenía al principio ya avanzado, hasta que recibí el feedback, el cuál me sirvió de muchísima ayuda.
