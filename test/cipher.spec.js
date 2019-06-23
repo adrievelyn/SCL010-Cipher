@@ -34,7 +34,9 @@ describe('cipher', () => {
       assert.equal(cipher.encode('ñ',33),'ñ');
     });
 
-
+    it('debería retornar "Ñ" para "Ñ" con offset 33', () => {
+      assert.equal(cipher.encode('Ñ',33),'Ñ');
+    });
   });
 
   describe('cipher.decode', () => {
@@ -67,6 +69,9 @@ describe('cipher', () => {
       assert.equal(cipher.decode('ñ',33),'ñ');
     });
 
+    it('debería retornar "Ñ" para "Ñ" con offset 33', () => {
+      assert.equal(cipher.decode('Ñ',33),'Ñ');
+    });
   });
 
 });

@@ -41,6 +41,7 @@ body {
 	/*margin: auto;*/
 	display: block;
 	max-width: 1000px;
+	max-height: 200px;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	color: darkblue;
 	position: absolute;
@@ -73,7 +74,7 @@ body {
 	font-size: 25px;
 	color: white;
 	width: 60%;
-	margin: 250px;
+	margin: 280px;
 	text-align: center;
 	background: #295760;
 	border: 2px solid #011638;
@@ -92,7 +93,7 @@ body {
 	position: absolute;
 	top: 500px;
 	bottom: o; 
-	left: 250px;
+	left: 290px;
 	right: 500px;
 	flex-wrap: wrap;
 
