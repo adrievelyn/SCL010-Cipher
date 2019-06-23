@@ -13,10 +13,10 @@
 Incluyo dos imagenes, una con la maqueta final con la que decidí quedarme, ya que elaboré muchas, hasta llegar a entender lo que se debía definir con lo solicitado. Y la otra imágen es el proyecto que tenía al principio ya avanzado, hasta que recibí el feedback, el cuál me sirvió de muchísima ayuda.
 
 
-![Diseño Anterior](image3.png)
+![Diseño Anterior](/src/image3.png)
 
 
-![Maqueta](maqueta.png)
+![Maqueta](/src/maqueta.png)
 
 
 # Cifrado César
