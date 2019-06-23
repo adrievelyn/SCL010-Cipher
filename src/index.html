@@ -1,47 +1,73 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Primer Proyecto: Cifrado César</title>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-escalable = no, initial-escale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+<title>Primer Proyecto: Cifrado César</title>
 
-  <!-- <link href="https://www.xmple.com/wallpaper/gradient-cyan-linear-1920x1080-c2-155145-18cdab-a-15-f-14.svg" rel="stylesheet"> -->
-  <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-   <img src="image.jpg" class="image" alt="">
-   <img src="image1.jpg" class="image1" alt="">
+<!-- <link href="https://www.xmple.com/wallpaper/gradient-cyan-linear-1920x1080-c2-155145-18cdab-a-15-f-14.svg" rel="stylesheet"> -->
+<link rel="stylesheet" href="style.css">
+</head>
+<!--Permite que la página responsive no sea escalable, que el usuario desde un movil solo pueda moverse hacia arriba o hacia abajo-->
+<body>
+  <div class = "container"> <!--Para el diseño responsive es recomendado que todo el contenido del body se encierre en un div-->
+<header class= "title"> 
+<h1><strong>Salud y CrossFit SanFer</strong></h1>
+</header>
 
-    <header class = "title1">
-              <h1> <strong>Salud y CrossFit SanFer</strong></h1> <br> 
-          
-    </header>
-    <header class = "title2">
-              <h2> ¿Quieres mejorar tu salud y calidad de vida? </h2>
-              <h3> Pregunta por la Promociones que tenemos para ti </h3>
-    </header>
+<div class = "logotipo">
 
-            <main class = "instruction">
-              <p> Ofrecemos para ti: <br> * Cardio para adelgazar <br> * Aumento masa muscular <br> * Para dieta Dieta Personalizada, envíanos también tu edad <br> * Para calcular tu IMC, agrega además tu altura y peso <br> * Cualquier otro Requerimiento <br> * Puedes realizar alguna consulta ó ingresar varias solicitudes <br> * Envíanos una dirección de correo para hacerte llegar la información.
-              </p> </main>
-              <main class = "instruction2"> <p> Agregue la cantidad de desplazamientos con el que desea cifrar sus datos: </p>
-              <strong> <input type="text"  id="offSetBox" class="beisbutton1"  placeholder= "Ingrese un Nro. Positivo">
-              </strong> <br>
-              </main>
-              <!--entrada objeto input en HTML tipo texto, con un id de caja de texto (textbox)-->
-              <main class = "instruction3"> <p> Agregue los datos a solicitar: </p>
-              <strong> <textarea rows="4" cols="50" id="textBox" class="beisbutton2" placeholder= "Ingrese sus Requerimientos">  
-               </textarea> </strong>  
-               </main>
-              <!--Botones tipo boton por defecto-->
-              <main>
-                <button id="encryptButton" class="bluebutton">Encriptar</button>
-                <button id="eraserButton" class="bluebutton"> Limpiar</button><!--class es dar estilo al elemento en css-->
-                <button id="decryptButton" class="bluebutton">Desencriptar</button>
-              <!--resultado-->
-              <p id="resultBox" class="hide"></p>
-              </main>
+</div>
 
-    <script type="text/javascript" src="index.js"></script>
-    <script type="text/javascript" src="cipher.js"></script>
-  </body>
+<main>
+
+<main class = "instruction">
+<h2> La Salud es Importante <br> Solicite su Entrenamiento Personalizado y Dietas Saludables </h2>
+</main>
+
+<main class= "second"> <p> <b> Ofrecemos para Ud.: </b> <br> <b> Opción 1: </b> Entrenamiento Cardio. <br> <b> Opción 2: </b> Dieta Balanceada. <br> <b> Opción 3: </b> Entrenamiento Cardio y Dieta Balanceada.  <br> <b> Opción 4: </b> Entrenamiento Cardio y Pesas. <br> <b> Opción 5: </b> Entrenamiento Cardio, Pesas y Dieta Balanceada. <br> Cualquier selección incluye cálculo del IMC y evaluación Nutricional. 
+</p> 
+</main>
+
+<main class = "instruction2">
+<p>Envíe sus datos de forma segura de la siguiente manera: <br> <b> Nombre y Apellido, Edad, Peso, Estatura. <br> Opción Nro: <u> (y añada el número de la opción seleccionada). </u> Así como cualquier solicitud adicional. <br> Al agregar todos sus datos oprima el botón Encriptar y luego el botón enviar. </b> <br> Recibiremos sus requerimientos en nuestro correo electrónico. <br> <u> * Favor leer Información al final de la página (cuadro gris). </u> </p>
+</main>
+
+<main class = "instruction3"> <p> Por favor ingrese una clave de dos dígitos: </p>
+<strong> <input type="text"  id="offSetBox" class="beisbutton1"  placeholder= "Nros positivos entre 1 y 25">
+</strong> <br>
+</main>
+
+<!--entrada objeto input en HTML tipo texto, con un id de caja de texto (textbox)-->
+<main class = "instruction4"> <p> Agregue los datos a solicitar: </p>
+<strong> <textarea rows="4" cols="50" id="textBox" class="beisbutton2">  
+</textarea> </strong>  
+</main>
+<!--Botones tipo boton por defecto-->
+<main>
+<button id="encryptButton" class="bluebutton1">Encriptar</button>
+<button id="sendButton" class="bluebutton2">Enviar</button>
+<button id="decryptButton" class="bluebutton4">Desencriptar</button><!--class es dar estilo al elemento en css-->
+<button id="eraserButton" class="bluebutton3">Limpiar</button>
+<!--resultado-->
+<p id="resultBox" class="hide"></p>
+<p id="sendtBox" class="hide"></p>
+</main>
+
+</main>
+
+<aside> <!--Se agregó un aside para agregar contenido al final de la pagina-->
+<h3> Copie y pegue en el recuadro de datos, el texto abajo Encriptado, con la clave Nro. 7 y presione el botón Desencriptar </h3>
+<p>  Tbjohz Nyhjphz( Wvy wylmlypyuvz5 Kl lzah tpzth thulyh sl ohyltvz sslnhy <br> sh pumvythjpvu Lujypwahkh h zb jvyylv lsljayvupjv3 jvu ls <br> Wshu zlnbu zb ylxblyptpluav5 Ls jbhs klil Klzlujypwahy lu ublzayh whnpuh <br> jvu zb jshcl5 F Yljblykl! )Jblywv Zhuv 4 Cpkh Zhuh) Zhsbk f JyvzzMpa ZhuMly.
+</p>
+</aside>
+
+<footer> 
+<p> Adriana Sánchez - Laboratoria June 2019 - Caesar Cipher Project </p>
+</footer>
+
+<script type="text/javascript" src="index.js"></script>
+<script type="text/javascript" src="cipher.js"></script>
+</div>
+</body>
 </html>

@@ -12,7 +12,6 @@ window.cipher = {
       let letterCodeTmp = '';
       // analizando las letras mayusculas A= 65 Y Z= 90
       if ((letterCode >= 65) && (letterCode <= 90))  {//&& que ambas condiciones se cumplan
-        
         // ejecutando el offset y convirtiendo de lenguaje ascii a letra
         //si se cumple la condicion se aplica la fórmula y la pasa a letra
         //todo lo ejecutado en el codigo se guarda en el condigo temporal

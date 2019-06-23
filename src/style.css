@@ -1,86 +1,158 @@
-@media screen and (max-width:1024px) and (min-width:640px) {
-  reglas CSS 
-  .display: none; 
+body {
+	background-color: white;
+	width: 100%
+}
+
+.container {
+	width: 100%;
+	max-width: 2000px;
+}
+
+.title {
+	width: 100%;
+	height: 40px;
+	text-align: left;
+ 	font-family: "Times New Roman";
+	color: orange;
+	padding-bottom: 15px;
+	display: block;
+	background: #295760;
+	border: 2px solid #011638;
 }
 
 .instruction {
-	font-size: 20px;
+	font-size: 15px;
 	text-align: center;
-	padding-top: 70px;
-	margin: auto;
-	background-position: center;
+	padding-top: auto;
+	display: block;
+	max-width: 1000px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	position: absolute;
+	top: 60px;
+	bottom: o; 
+	left: 300px;
+	right: 300px;
 }
 
-.instruction2 {
-	font-size: 25px;
-	color: white;
-	margin: auto;
-	text-align: center;
-	background: #295760;
-	border: 2px solid #011638;
+.second {
+	font-size: 18px;
+	/*text-align: center;*/
+	padding-top: auto;
+	/*margin: auto;*/
+	display: block;
+	max-width: 1000px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: darkblue;
+	position: absolute;
+	top: 150px;
+	bottom: 0;
+	left: 50px;
+	right: 200px;
+
+}
+
+.instruction2{
+	font-size: 18px;
+	/*text-align: center;*/
+	padding-top: 3px;
+	/*margin: auto;*/
+	display: block;
+	max-width: 1000px;
+	/*border-style: dotted;
+	border-color: black;*/
+	font-family: Verdana, Arial, Helvetica, sans-serif;;
+	color: darkblue;
+	position: absolute;
+	top: 130px;
+	bottom: o; 
+	left: 800px;
+	right: 50px;
 }
 
 .instruction3 {
 	font-size: 25px;
 	color: white;
+	width: 60%;
+	margin: 250px;
+	text-align: center;
+	background: #295760;
+	border: 2px solid #011638;
+	flex-wrap: wrap;
+}
+
+.instruction4 {
+	font-size: 25px;
+	color: white;
+	width: 60%;
 	margin-top: 10px;
 	text-align: center;
 	background: #295760;
 	border: 2px solid #011638;
-}
-
-.title1 {
-	color: orange;
- 	text-align: left;
- 	width: auto;
- 	height: 50px;
- 	margin-top: 1px;
- 	padding-bottom: 10px;
- 	padding-top: 0px;
+	display: block;
+	position: absolute;
+	top: 500px;
+	bottom: o; 
+	left: 250px;
+	right: 500px;
+	flex-wrap: wrap;
 
 }
 
-
-.title2 {
+#h2 {
 	margin: auto;
 	font-weight: normal;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Times New Roman";
 	font-size: 20px;
 	color: black;
 	text-align: center;
 } 
 
-h1, h2, h3 {
-	font-weight: normal;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 20px;
-}
-
-h1, h2 { 
-	color: red; 
-	margin: auto;
-}
-h3 { 
-	color: darkblue ; 
-	margin: auto;
-}
-
-h1 {
-	box-sizing: 20px;
-	margin-bottom: 30px;
-	color: blue;
-  	background-color: orange;
- 	border: 5px solid darkblue;
-}
-
-.bluebutton {
+.bluebutton1 {
 	color: white;
 	background-color: darkblue;
 	border-top: 20px;
 	width: 150px;
 	height: 30px;
 	font-size: 20px;
-	display: inline;
+	display: inline-block;
+	margin-left: 300px;
+	margin-top: 120px;
+}
+
+.bluebutton2 {
+	color: white;
+	background-color: darkblue;
+	border-top: 20px;
+	width: 150px;
+	height: 30px;
+	font-size: 20px;
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 120px;
+}
+
+.bluebutton3 {
+	color: white;
+	background-color: darkblue;
+	border-top: 20px;
+	width: 150px;
+	height: 30px;
+	font-size: 20px;
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 120px;
+}
+
+.bluebutton4 {
+	color: white;
+	background-color: darkblue;
+	border-top: 20px;
+	width: 150px;
+	height: 30px;
+	font-size: 20px;
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 120px;
 }
 
 .beisbutton1 {
@@ -108,21 +180,30 @@ h1 {
     font: center;
 }
 
-.image {
-	width: 270px;
-	height: 300px;
-	float: right;
-	padding-top: 100px;
+aside {
+	text-align: center;
+	background: #8494A3;
+	border: 2px solid #011638;
+	margin-top: 15px;
+	width: 100%;
 }
 
-.image1 {
-	width: 300px;
-	height: 250px;
-	float: left;
-	padding-top: 130px;
+footer{
+	text-align: center;
+	background: #295760;
+	border: 1px solid #011638;
+	font-size: 15px;
+	margin-top: 10px;
 }
 
 .hide {
 	display: none;
+	font-family: "Verdana";
+	font-size: 20px;
+	border: 1px solid #011638;
 }
 
+@media screen and (max-width:1024px) and (min-width:640px) {
+  reglas CSS 
+  .display: none; 
+}
