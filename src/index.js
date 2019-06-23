@@ -13,11 +13,11 @@ window.addEventListener('load', () => {
   /* se creó función para encriptar una palabra con un boton al que se le agregó Listener para escuchar un evento llamado click*/
   encryptButton.addEventListener('click', () => {
     let offsetNumber = parseInt(offset.value);
-    if (offsetNumber < 0 || offsetNumber > 25) { alert("Ingrese un numero positivo entre 1 y 25"); }
+    if (offsetNumber < 0 ) { alert("Ingrese un numero positivo"); }
     let textBoxContent = textBox.value;
     //creamos una variable a la que se le asigna el valor (value) de la caja de texto
     if (textBoxContent == '') { alert("Ingrese un texto a cifrar"); }
-    if (textBoxContent.match(/[a-zA-ZñÑ]/)) { //textBoxContent.match(/[a-zA-Z]/) define una expresion regular
+    // if (textBoxContent.match(/[a-zA-ZñÑ]/)) { //textBoxContent.match(/[a-zA-Z]/) define una expresion regular
       let sendOffset = window.cipher.encode(textBoxContent,offsetNumber);
 //que indica que solo acepta letras de la a a la z minúsculas y mayúsculas
 //no acepta números y caratéres especiales (la funcion string.match indica que solo acepta una expresión regular que coincida con
@@ -28,18 +28,18 @@ window.addEventListener('load', () => {
       resultBox.innerHTML = 'El texto encriptado es : ' + sendOffset ; // con inner se ingresa a resultbox lo que indica la variable output
       // sendBox.classList.add('hide');//removiendo la clase de nombre hide (oculto) al resultbox
 
-    }
+    // }
   });
 
   /* se creó función para desencriptar una palabra con un boton al que se le agregó Listener para escuchar un evento llamado click*/
   //sobre decryptButton
   decryptButton.addEventListener('click', () => {
     let offsetNumber = parseInt(offset.value);
-    if (offsetNumber < 0 || offsetNumber > 25) { alert("Ingrese un numero positivo entre 1 y 25"); }
+    if (offsetNumber < 0 ) { alert("Ingrese un numero positivo "); }
     let textBoxContent = textBox.value;
    //creamos una variable a la que se le asigna el valor (value) de la caja de texto
     if (textBoxContent == '') { alert("Ingrese un texto a cifrar"); }
-    if (textBoxContent.match(/[a-zA-ZñÑ]/)) { //textBoxContent.match(/[a-zA-Z]/) define una expresion regular
+    // if (textBoxContent.match(/[a-zA-ZñÑ]/)) { //textBoxContent.match(/[a-zA-Z]/) define una expresion regular
       let sendOffset = window.cipher.decode(textBoxContent,offsetNumber);
 
 //que indica que solo acepta letras de la a a la z minúsculas y mayúsculas
@@ -49,7 +49,7 @@ window.addEventListener('load', () => {
       /* Resultado*/
       resultBox.classList.remove('hide');//removiendo la clase de nombre hide (oculto) al resultbox
       resultBox.innerHTML = 'El texto desencriptado es : ' + sendOffset ; // con inner se ingresa a resultbox lo que indica la variable output
-    }
+    // }
   });// con inner se ingresa a resultbox lo que indica la variable output
 
   let sendBox = document.getElementById('sendButton');

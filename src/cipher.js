@@ -8,6 +8,7 @@ window.cipher = {
     for (let i = 0; i < textBoxContent.length;i++) {
       // variable en donde se convierte cada letra en codigo ascii
       let letterCode = textBoxContent.charCodeAt(i);
+
       // variable vacia
       let letterCodeTmp = '';
       // analizando las letras mayusculas A= 65 Y Z= 90
@@ -22,10 +23,11 @@ window.cipher = {
        
         letterCodeTmp = String.fromCharCode(((letterCode - 97 + offset) % 26) + 97);
 
-      } else if(letterCode >= 33 && letterCode <= 64){
+      } else if(letterCode >= 33 && letterCode <= 64){//Caracteres especiales y numeros
+
         letterCodeTmp = String.fromCharCode(((letterCode - 33 + offset) % 32) + 33);
 
-      } else if (letterCode === 32){
+      } else if (letterCode === 32){//espacio
         letterCodeTmp = String.fromCharCode(letterCode);
 
       } else if (letterCode === 241 || letterCode === 209){
@@ -50,13 +52,13 @@ window.cipher = {
       let letterCodeTmp = '';
       // analizando las letras mayusculas A= 65 Y Z= 90
       if ((letterCode >= 65) && (letterCode <= 90)) {
-        letterCodeTmp = String.fromCharCode(((letterCode - 65 - offset + 26) % 26) + 65);
+        letterCodeTmp = String.fromCharCode(((letterCode - 65 - 33 + 26 * 2) % 26) + 65);
 
       } else if ((letterCode >= 97) && (letterCode <= 122)) {//  analizando las letras minusculas a= 97 y z=122 y ejecutando los 33 espacios
-        letterCodeTmp = String.fromCharCode(((letterCode - 97 - offset + 26) % 26) + 97);    
+        letterCodeTmp = String.fromCharCode(((letterCode - 97 - offset + 26 * 2) % 26) + 97);    
 
       } else if(letterCode >= 33 && letterCode <= 64){
-        letterCodeTmp = String.fromCharCode(((letterCode - 33 - offset + 32) % 32) + 33);
+        letterCodeTmp = String.fromCharCode(((letterCode - 33 - offset + 32 *2) % 32) + 33);
 
       } else if (letterCode === 32){
         letterCodeTmp = String.fromCharCode(letterCode);
