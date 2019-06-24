@@ -52,7 +52,7 @@ window.cipher = {
       let letterCodeTmp = '';
       // analizando las letras mayusculas A= 65 Y Z= 90
       if ((letterCode >= 65) && (letterCode <= 90)) {
-        letterCodeTmp = String.fromCharCode(((letterCode - 65 - 33 + 26 * 2) % 26) + 65);
+        letterCodeTmp = String.fromCharCode(((letterCode - 65 - offset + 26 * 2) % 26) + 65);
 
       } else if ((letterCode >= 97) && (letterCode <= 122)) {//  analizando las letras minusculas a= 97 y z=122 y ejecutando los 33 espacios
         letterCodeTmp = String.fromCharCode(((letterCode - 97 - offset + 26 * 2) % 26) + 97);    
