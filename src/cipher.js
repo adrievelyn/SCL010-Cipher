@@ -1,12 +1,13 @@
 
 window.cipher = {
   encode: (textBoxContent, offset) => {
-    
+    //en el cifer se aplican las formulas correspondientes
     let output = '';
     // iteramos sobre la palabra con un loop for
     //hasta la longitud de ella
     for (let i = 0; i < textBoxContent.length;i++) {
       // variable en donde se convierte cada letra en codigo ascii
+      //se crea un bucle for y se itera sobre el contenido
       let letterCode = textBoxContent.charCodeAt(i);
 
       // variable vacia

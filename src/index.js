@@ -9,10 +9,11 @@ window.addEventListener('load', () => {
   let encryptButton = document.getElementById('encryptButton');
   let decryptButton = document.getElementById('decryptButton');
   let resultBox = document.getElementById('resultBox');
-  
+  //se crearon 5 variables donde guarda los documentos del index.html que se ontienen por el Id.
   /* se creó función para encriptar una palabra con un boton al que se le agregó Listener para escuchar un evento llamado click*/
+  //se agrega un listener al boton para cuando haga click nos ejecute las funciones
   encryptButton.addEventListener('click', () => {
-    let offsetNumber = parseInt(offset.value);
+    let offsetNumber = parseInt(offset.value); //parseint convierte un string a enterio
     if (offsetNumber < 0 ) { alert("Ingrese un numero positivo"); }
     let textBoxContent = textBox.value;
     //creamos una variable a la que se le asigna el valor (value) de la caja de texto

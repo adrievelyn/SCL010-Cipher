@@ -204,7 +204,7 @@ footer{
 	border: 1px solid #011638;
 }
 
-@media screen and (max-width:1024px) and (min-width:640px) {
+@media screen and (max-width:740px) and (min-width: 400px) {
   reglas CSS 
   .display: none; 
 }
