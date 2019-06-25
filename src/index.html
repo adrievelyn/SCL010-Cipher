@@ -10,7 +10,7 @@
 </head>
 <!--Permite que la página responsive no sea escalable, que el usuario desde un movil solo pueda moverse hacia arriba o hacia abajo-->
 <body>
-  <div class = "container"> <!--Para el diseño responsive es recomendado que todo el contenido del body se encierre en un div-->
+<div class = "container"> <!--Para el diseño responsive es recomendado que todo el contenido del body se encierre en un div-->
 <header class= "title"> 
 <h1><strong>Salud y CrossFit SanFer</strong></h1>
 </header>
@@ -18,34 +18,30 @@
 <div class = "logotipo">
 
 </div>
+<!--El elemento HTML<main> representa el contenido dominante <body>de un documento. El área de contenido principal consiste en contenido que está directamente relacionado o se expande sobre el tema central de un documento, o la funcionalidad central de una aplicación.-->
 
-<main> 
-  <!--El elemento HTML<main> representa el contenido dominante <body>de un documento. El área de contenido principal consiste en contenido que está directamente relacionado o se expande sobre el tema central de un documento, o la funcionalidad central de una aplicación.-->
-
-<main class = "instruction">
+<main>
+<div class = "instruction">
 <h2> La Salud es Importante <br> Solicite su Entrenamiento Personalizado y Dietas Saludables </h2>
-</main>
+</div>
 
-<main class= "second"> <p> <b> Ofrecemos para Ud.: </b> <br> <b> Opción 1: </b> Entrenamiento Cardio. <br> <b> Opción 2: </b> Dieta Balanceada. <br> <b> Opción 3: </b> Entrenamiento Cardio y Dieta Balanceada.  <br> <b> Opción 4: </b> Entrenamiento Cardio y Pesas. <br> <b> Opción 5: </b> Entrenamiento Cardio, Pesas y Dieta Balanceada. <br> Cualquier selección incluye cálculo del IMC y evaluación Nutricional. 
-</p> 
-</main>
+<div class= "second"> <p> <b> Ofrecemos para Ud.: </b> <br> <b> Opción 1: </b> Entrenamiento Cardio. <br> <b> Opción 2: </b> Dieta Balanceada. <br> <b> Opción 3: </b> Entrenamiento Cardio y Dieta Balanceada.  <br> <b> Opción 4: </b> Entrenamiento Cardio y Pesas. <br> <b> Opción 5: </b> Entrenamiento Cardio, Pesas y Dieta Balanceada. <br> Cualquier selección incluye cálculo del IMC y evaluación Nutricional. 
+</p> </div>
 
-<main class = "instruction2">
-<p>Envíe sus datos de forma segura de la siguiente manera: <br> <b> Nombre y Apellido, Edad, Peso, Estatura. <br> Opción Nro: <u> (y añada el número de la opción seleccionada). </u> Así como cualquier solicitud adicional. <br> Al agregar todos sus datos oprima el botón Encriptar y luego el botón enviar. </b> <br> Recibiremos sus requerimientos en nuestro correo electrónico. <br> <u> * Favor leer Información al final de la página (cuadro gris). </u> </p>
-</main>
+<div class = "instruction2">
+<p>Envíe sus datos de forma segura de la siguiente manera: <br> <b> Nombre y Apellido, Edad, Peso, Estatura. <br> Opción Nro: <u> (y añada el número de la opción seleccionada). </u> Así como cualquier solicitud adicional. <br> Al agregar todos sus datos oprima el botón Encriptar y luego el botón enviar. </b> <br> Recibiremos sus requerimientos en nuestro correo electrónico. <br> <u> * Favor leer Información al final de la página (cuadro gris). </u> </p> </div>
 
-<main class = "instruction3"> <p> Por favor ingrese una clave de dos dígitos: </p>
+<div class = "instruction3"> <p> Por favor ingrese una clave de dos dígitos: </p>
 <strong> <input type="text"  id="offSetBox" class="beisbutton1"  placeholder= "Nros positivos">
 </strong> <br>
-</main>
+</div>
 
 <!--entrada objeto input en HTML tipo texto, con un id de caja de texto (textbox)-->
-<main class = "instruction4"> <p> Agregue los datos a solicitar: </p>
+<div class = "instruction4"> <p> Agregue los datos a solicitar: </p>
 <strong> <textarea rows="4" cols="50" id="textBox" class="beisbutton2">  
-</textarea> </strong>  
-</main>
+</textarea> </strong>  </div> 
+
 <!--Botones tipo boton por defecto-->
-<main>
 <button id="encryptButton" class="bluebutton1">Encriptar</button>
 <button id="sendButton" class="bluebutton2">Enviar</button>
 <button id="decryptButton" class="bluebutton4">Desencriptar</button><!--class es dar estilo al elemento en css-->
@@ -53,7 +49,6 @@
 <!--resultado-->
 <p id="resultBox" class="hide"></p>
 <p id="sendtBox" class="hide"></p>
-</main>
 
 </main>
 

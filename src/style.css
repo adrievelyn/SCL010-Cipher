@@ -20,7 +20,7 @@ body {
 	border: 2px solid #011638;
 }
 
-.instruction {
+div .instruction {
 	font-size: 15px;
 	text-align: center;
 	padding-top: auto;
@@ -34,7 +34,7 @@ body {
 	right: 300px;
 }
 
-.second {
+div .second {
 	font-size: 18px;
 	/*text-align: center;*/
 	padding-top: auto;
@@ -52,7 +52,7 @@ body {
 
 }
 
-.instruction2{
+div .instruction2{
 	font-size: 18px;
 	/*text-align: center;*/
 	padding-top: 3px;
@@ -70,7 +70,7 @@ body {
 	right: 50px;
 }
 
-.instruction3 {
+div .instruction3 {
 	font-size: 25px;
 	color: white;
 	width: 60%;
@@ -81,7 +81,7 @@ body {
 	flex-wrap: wrap;
 }
 
-.instruction4 {
+div .instruction4 {
 	font-size: 25px;
 	color: white;
 	width: 60%;
